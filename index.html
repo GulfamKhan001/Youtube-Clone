@@ -4,125 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUTUBE</title>
+    <title>Jutube</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- nav bar -->
+
     <div class="navbar">
-        <nav>
-            <div class="logo">
-                <img src="Logo.png" alt="Jutube Logo">
-                <h1><a href="#">JUTUBE</a></h1>
+        <header>
+            <img src="youtube-logo-png-46020.png" alt="Logo" class="logo">
+            <nav>
+                <div class="search">
+                    <ul>
+                        <li id="search">Search</li>
+                        <li id="search-icon"><i class="fa fa-search"></i></li>
+                        <li id="microphone"><i class="fa fa-microphone"></i></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="option">
+                <ul>
+                    <li id="option"><i class="fa fa-ellipsis-v"></i></li>
+                    <li id="notification"><i class="fa fa-bell-o"></i></li>
+                    <li id="sign-in">SIGN IN</li>
+                </ul>
             </div>
-            <div>
-                <h4>Search</h4>
-            </div>
-            <div>
-                <h3>SIGN IN</h3>
-            </div>
-        </nav>
+        </header>
     </div>
 
-    <!-- Side Bar -->
-    <div class="container">
-        <div class="sidebar">
-            <div class="a">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Explore</a></li>
-                    <li><a href="#">Subscripitions</a></li>
-                </ul>
-            </div>
-            <div class="b">
-                <ul>
-                    <li><a href="#">Library</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Watch Later</a></li>
-                    <li><a href="#">Your Videos</a></li>
-                    <li><a href="#">Liked Videos</a></li>
-                    <li><a href="#">show more</a></li>
-                </ul>
-            </div>
-            <div class="c">
-                <h3>SUBSCRIPTIONS</h3>
-                <ul>
-                    <!-- <li><a href="#">Library</a></li> -->   
-                </ul>
-            </div>
-        </div>
-        <div>
-            <div class="mininav">
-                <ul>
-                    <li><a href="#">sub1</a></li>
-                    <li><a href="#">sub2</a></li>
-                    <li><a href="#">sub3</a></li>
-                    <li><a href="#">sub4</a></li>
-                    <li><a href="#">sub5</a></li>
-                    <li><a href="#">sub6</a></li>
-                    <li><a href="#">sub7</a></li>
-                    <li><a href="#">sub8</a></li>
-                    <li><a href="#">sub9</a></li>
-                    <li><a href="#">sub10</a></li>
-                    <li><a href="#">sub11</a></li>
-                    <li><a href="#">sub12</a></li>
-                    <li><a href="#">sub13</a></li>
-                    <li><a href="#">sub14</a></li>
-                    <li><a href="#">sub15</a></li>
-                </ul>
-            </div>
-            <div class="Content">
-                <div>
-                    <img src="image1.jpg" alt="">
-                    <div>
-                        <p>title of Video</p>
-                        <p>Channel name</p>
-                        <div class="Viewer">
-                            <p>Views</p>
-                            <p>Time</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="image2.jpg" alt="">
-                    <div>
-                        <p>title of Video</p>
-                        <p>Channel name</p>
-                        <div class="Viewer">
-                            <p>Views</p>
-                            <p>Time</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="image3.jpg" alt="">
-                    <div>
-                        <p>title of Video</p>
-                        <p>Channel name</p>
-                        <div class="Viewer">
-                            <p>Views</p>
-                            <p>Time</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="image4.jpg" alt="">
-                    <div>
-                        <p>title of Video</p>
-                        <p>Channel name</p>
-                        <div class="Viewer">
-                            <p>Views</p>
-                            <p>Time</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
-    
-    
+    <!-- SIDE BAR -->
 
+    <div class="sidebar">
+        <div class="list-1">
+            <ul>
+                <a href="#"><li class="side-items"><i class="fa fa-home"></i>Home</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-puzzle-piece"></i>Explore</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-toggle-right"></i>Subscriptions</li></a>
+            </ul>
+        </div>
+        <div class="list-2">
+            <ul>
+                <a href=""><li class="side-items"><i class="fa fa-window-restore"></i>Library</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-clock-o"></i>History</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-toggle-right"></i>Your Videos</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-eye"></i>Watch later</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-thumbs-o-up"></i>Liked videos</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-sort-down"></i>Show more</li></a>
+            </ul>
+        </div>
+        <div class="list-3">
+            <h4>MORE FROM JUTUBE</h4>
+            <ul>
+                <a href=""><li class="side-items"><i class="fa fa-id-badge"></i>Jutube Premium</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-microchip"></i>Movies</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-gamepad"></i>Games</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-podcast"></i>Live</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-shopping-bag"></i>Fashion & Beauty</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-mortar-board"></i>Learning</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-futbol-o"></i>Sports</li></a>
+            </ul>
+        </div>
+        <div class="list-4">
+            <ul>
+                <a href=""><li class="side-items"><i class="fa fa-cog"></i>Settings</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-flag-o"></i>Report history</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-question-circle-o"></i>Help</li></a>
+                <a href=""><li class="side-items"><i class="fa fa-exclamation-circle"></i>Send feedback</li></a>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
