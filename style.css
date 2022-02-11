@@ -15,12 +15,11 @@ body{
     position: fixed;
     top: 56px;
     left: 0;
-    width: 20vw;
+    width: 19.5vw;
     height: 100vh;
 
     background-color: #fff;
     line-height: 37px;
-    overflow-y: scroll;
     white-space: nowrap;
 }
 .sidebar .side-items{
@@ -48,6 +47,9 @@ body{
 }
 .sidebar .side-items:hover{
     background-color: #c0c0c0;
+}
+.sidebar:hover{
+    overflow-y: scroll;
 }
 
 
