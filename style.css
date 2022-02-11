@@ -85,6 +85,7 @@ header .fa{
     background-color: #adadad;
     padding: 10px;
     margin-left: 4px;
+    cursor: pointer;
 
 }
 #search{
@@ -96,11 +97,13 @@ header .fa{
     padding: 10px;
     border: 0px;
     background-color: #adadad;
+    cursor: pointer;
 }
 #sign-in{
     border: 3px;
     border-style:solid;
     padding: 8.9px;
+    cursor: pointer;
 }
 
 
