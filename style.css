@@ -15,12 +15,13 @@ body{
     position: fixed;
     top: 56px;
     left: 0;
-    width: 19.5vw;
+    width: 280px;
     height: 100vh;
 
-    background-color: #fff;
+    background-color: #ebebeb;
     line-height: 37px;
     white-space: nowrap;
+    overflow-y: auto;
 }
 .sidebar .side-items{
     padding-left: 35px;
@@ -49,7 +50,7 @@ body{
     background-color: #c0c0c0;
 }
 .sidebar:hover{
-    overflow-y: scroll;
+    background-color: #fff;
 }
 
 
@@ -58,14 +59,16 @@ body{
 /* NAV BAR  */
 
 header{
+    position: fixed;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 20px;
+    width: 100%;
+    justify-content:space-between ;
     align-items: center;
     
 }
 .navbar img{
     height: 55px;
+    padding-left: 20px;
 }
 .search>ul{
     display: flex;
@@ -74,6 +77,9 @@ header{
 .option li{
     display: inline-block;
     padding: 0px 8px;
+}
+.option{
+    padding-right: 20px;
 }
 .logo{
     cursor: pointer;
@@ -108,6 +114,32 @@ header .fa{
     cursor: pointer;
 }
 
+
+
+
+
+/* MINI NAVBAR  */
+.mininav{
+    position: fixed;
+    top: 55px;
+    left: 280px;
+    max-height: 55px;
+    display: flex;
+    padding: 10px 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    overflow-x: scroll;
+}
+.mininav .mini-list{
+    border: 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding: 6px 10px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
 
 
 
