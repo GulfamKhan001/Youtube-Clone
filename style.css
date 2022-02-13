@@ -8,7 +8,6 @@
 body{
     background-color: #ebebeb;
     font-family: 'Fira Sans',sans-serif;
-    overflow-y: scroll;
 }
 
 /* SIDE BAR */
@@ -128,9 +127,9 @@ header .fa{
     max-height: 55px;
     display: flex;
     padding: 10px 5px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    /* overflow-x: scroll; */
+    border-top: 1px solid rgb(133, 132, 132);
+    border-bottom: 1px solid rgb(133, 132, 132);
+    overflow-x: auto;
 }
 .mininav .mini-list{
     border: 1px solid;
@@ -150,11 +149,17 @@ header .fa{
 
 
 /* CONTENT  */
-
-.content{
+.content-1{
     position: fixed;
     top: 110px;
     left: 280px;
+    width: 84%;
+    overflow-y: scroll;
+    justify-content: flex-end;
+}
+.content{
+    /* position: fixed; */
+    
     white-space: nowrap;
     margin: 10px;
     margin-right: 20px;
@@ -164,6 +169,15 @@ header .fa{
 }
 .content .items{
     padding: 5px 7px;
+}
+.items ul{
+    line-height: 22px;
+}
+.items li{
+    font-size: 10px;
+}
+.items h5{
+    font-size: 20px;
 }
 .items img{
     width: 19vw;
