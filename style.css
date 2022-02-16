@@ -6,20 +6,22 @@
     
 }
 body{
-    background-color: #ebebeb;
-    font-family: 'Fira Sans',sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
+
 
 /* SIDE BAR */
 
 .sidebar{
     position: fixed;
-    top: 56px;
+    top: 55px;
     left: 0;
     width: 280px;
     height: 100vh;
+    background-color: #fff;
 
-    background-color: #ebebeb;
+   
     line-height: 37px;
     white-space: nowrap;
     overflow-y: auto;
@@ -51,7 +53,10 @@ body{
     background-color: #c0c0c0;
 }
 .sidebar:hover{
-    background-color: #fff;
+    background-color: #ebebeb;
+}
+.sidebar::-webkit-scrollbar {
+    display:none;
 }
 
 
@@ -65,6 +70,7 @@ header{
     width: 100%;
     justify-content:space-between ;
     align-items: center;
+    background-color: #fff;
     
 }
 .navbar img{
@@ -120,16 +126,29 @@ header .fa{
 
 
 /* MINI NAVBAR  */
+.section{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow:visible;
+    /* overflow-x: scroll; */
+    
+}
 .mininav{
-    position: fixed;
+    background-color: #fff;
+    display: flex;
+    position: sticky;
+    overflow: auto;
     top: 55px;
+    width: 80.9%;
     left: 280px;
     max-height: 55px;
-    display: flex;
     padding: 10px 5px;
     border-top: 1px solid rgb(133, 132, 132);
     border-bottom: 1px solid rgb(133, 132, 132);
-    overflow-x: auto;
+    
+}
+.mininav::-webkit-scrollbar {
+    display:none;
 }
 .mininav .mini-list{
     border: 1px solid;
@@ -141,6 +160,9 @@ header .fa{
     text-align: center;
     
 }
+.all{
+    background-color: #606060;
+}
 .mini-list:hover{
     background-color: #c0c0c0;
 }
@@ -148,23 +170,30 @@ header .fa{
 
 
 
+
 /* CONTENT  */
 .content-1{
-    position: fixed;
-    top: 110px;
+    background-color: #ebebeb;
+    position: relative;
+    top: 50px;
+    z-index:-10;
     left: 280px;
-    width: 84%;
-    overflow-y: scroll;
+    width: 81.55%;
+    /* overflow-y: scroll; */
+    overflow: hidden;
     justify-content: flex-end;
+    background-size: cover;
 }
 .content{
     /* position: fixed; */
     
     white-space: nowrap;
-    margin: 10px;
+    /* margin: 10px; */
+    padding: 10px 0px;
     margin-right: 20px;
+    margin-left: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 .content .items{
@@ -180,8 +209,15 @@ header .fa{
     font-size: 20px;
 }
 .items img{
-    width: 19vw;
+    width: 250px;
+    min-width: 200px;
+    height: 150px;
 }
+
+
+
+
+
 
 
 
