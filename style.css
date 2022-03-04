@@ -17,7 +17,7 @@ body{
     position: fixed;
     top: 55px;
     left: 0;
-    width: 280px;
+    width: 20%;
     height: 100vh;
     background-color: #fff;
 
@@ -139,8 +139,8 @@ header .fa{
     position: sticky;
     overflow: auto;
     top: 55px;
-    width: 80.9%;
-    left: 280px;
+    width: 78.5%;
+    left: 300px;
     max-height: 55px;
     padding: 10px 5px;
     border-top: 1px solid rgb(133, 132, 132);
@@ -175,14 +175,15 @@ header .fa{
 .content-1{
     background-color: #ebebeb;
     position: relative;
-    top: 50px;
+    top: 53px;
     z-index:-10;
     left: 280px;
-    width: 81.55%;
+    width: 79.21%;
     /* overflow-y: scroll; */
     overflow: hidden;
     justify-content: flex-end;
     background-size: cover;
+    background-color:#c9c9c9;
 }
 .content{
     /* position: fixed; */
@@ -190,14 +191,17 @@ header .fa{
     white-space: nowrap;
     /* margin: 10px; */
     padding: 10px 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
 
 }
 .content .items{
-    padding: 5px 7px;
+    padding: 5px 5px;
+    padding-bottom: 0px;
+    
 }
 .items ul{
     line-height: 22px;
