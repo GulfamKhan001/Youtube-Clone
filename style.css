@@ -178,10 +178,10 @@ header .fa{
     top: 55px;
     z-index:-10;
     left: 19.55vw;
-    width: 79.2vw;
+    width: 79.19vw;
     /* overflow-y: scroll; */
     overflow: hidden;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
     background-size: cover;
     background-color:#c9c9c9;
 }
@@ -195,7 +195,7 @@ header .fa{
     margin-right: 10px;
     margin-left: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
 
 }
 .content .items{
