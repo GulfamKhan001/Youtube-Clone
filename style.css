@@ -213,9 +213,9 @@ header .fa{
     font-size: 20px;
 }
 .items img{
-    width: 250px;
-    min-width: 200px;
-    height: 150px;
+    width: 17.5vw;
+    /* min-width: 200px; */
+    height: 20vh;
 }
 
 
